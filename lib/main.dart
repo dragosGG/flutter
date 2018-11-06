@@ -13,6 +13,7 @@ var app = MaterialApp(
     onPressed: () {
       print("hi there!");
     },
+    child: Icon(Icons.clear),
   ),
 
   ),
