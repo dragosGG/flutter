@@ -7,8 +7,9 @@ void main() {
 
 var app = MaterialApp(
   home: Scaffold(
-    appBar: AppBar(),
-    
+    appBar: AppBar(title: Text("Let's see some Images"),
+    ),
+
   ),
   );
 
