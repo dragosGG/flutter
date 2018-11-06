@@ -9,8 +9,15 @@ var app = MaterialApp(
   home: Scaffold(
     appBar: AppBar(title: Text("Let's see some Images"),
     ),
+  floatingActionButton: FloatingActionButton(
+    onPressed: () {
+      print("hi there!");
+    },
+  ),
 
   ),
+
+
   );
 
 runApp(app);
