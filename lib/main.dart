@@ -6,8 +6,6 @@ import 'src/app.dart';
 
 void main() {
 
-var app = 
-
-runApp(app);
+runApp(App());
 
 }
