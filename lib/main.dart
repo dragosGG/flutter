@@ -2,24 +2,11 @@
 // from flutter to get content on the screen 
 
 import 'package:flutter/material.dart';
+import 'src/app.dart';
 
 void main() {
 
-var app = MaterialApp(
-  home: Scaffold(
-    appBar: AppBar(title: Text("Let's see some Images"),
-    ),
-  floatingActionButton: FloatingActionButton(
-    onPressed: () {
-      print("hi there!");
-    },
-    child: Icon(Icons.clear),
-  ),
-
-  ),
-
-
-  );
+var app = 
 
 runApp(app);
 
