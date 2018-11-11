@@ -1,7 +1,7 @@
 // import flutter helper library 
 
 import 'package:flutter/material.dart';
-
+import 'package:http/http.dart' show get;
 
 
 class App extends StatefulWidget {
@@ -14,6 +14,10 @@ class App extends StatefulWidget {
 class AppState extends State<App> {
 int counter = 0;
 
+void fetchImage() {
+
+}
+
 Widget build(context) {
   return MaterialApp(
   home: Scaffold(
@@ -21,11 +25,7 @@ Widget build(context) {
     appBar: AppBar(title: Text("Let's see some Images"),
     ),
   floatingActionButton: FloatingActionButton(
-    onPressed: () {
-      setState(() {
-        counter += 1;
-            });
-    },
+    onPressed: fetchImage,
     child: Icon(Icons.clear),
   ),
 
