@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' show get;
 import 'models/image_model.dart';
 import 'dart:convert';
+import 'widgets/image_list.dart';
 
 
 
@@ -30,7 +31,7 @@ void fetchImage() async {
 Widget build(context) {
   return MaterialApp(
   home: Scaffold(
-    body: Text('$counter'),
+    body: ImageList(images),
     appBar: AppBar(title: Text("Let's see some Images"),
     ),
   floatingActionButton: FloatingActionButton(
